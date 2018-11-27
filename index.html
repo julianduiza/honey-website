@@ -1,66 +1,140 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Mukta' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+  <script src='js/jquery.js'></script>
   <title>honey</title>
-</head>
 <style>
     body {
       margin: 0;
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      line-height: 1.45;
+      display: inline;
     }
     section {
       width: 100%;
       height: 100vh;
       margin: 0 auto;
+      padding-top: 15px;
+
     }
     .main section.page1 {
       background: #ffe733;
       text-align: center;
-      height: 25vh;
-      padding-top: 10px;
+      height: 20vh;
     }
     .main section.page2 {
       background: #ffffff;
       text-align: center;
+      height: 150vh;
+      padding: 120px 120px 120px 120px;
+    }
+    .main section .page2 .img {
+      align-self: center;
     }
     .main section.page3 {
-      background: #000000;
+      background: #ffffff;
       text-align: center;
     }
     .main section.page4 {
-      background: #898882;
+      background: #ffffff;
       text-align: center;
-      height: 15vh;
+      height: 30vh;
+      display: inline-grid;
     }
     .main section.page5 {
       background: #ffe733;
       text-align: center;
+
     }
     .main section.page6 {
-      background: #ffffff;
+      background: #898882;
       text-align: center;
     }
+    .main section.page7 {
+      background: #000000;
+      display: block;
+      text-align: center;
+    }
+
     h1 {
       font-size: 50px;
       font-family: 'Pacifico', serif;
       font-weight: normal;
       line-height: 1.45;
+      padding-bottom: 0px;
+      margin: 0;
     }
+    h2 {
+      padding-top: 2px;
+      line-height: 1.45;
+      margin: 0;
+    }
+    .col-md-3 .img-thumbnail {
+      max-height: 15vh;
+      border: 0;
+      display: inline-block;
+    }
+
 </style>
+</head>
   <body>
     <div class="main">
       <section class="page1">
-      <h1>honey</h1>
-      <h3>a multi-shop loyalty card platform</h3></section>
+        <h1>honey</h1>
+        <h3>a multi-shop loyalty card platform</h3></section>
       <section class="page2">
-      <h2>offers</h2></section>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+        <h2><p>honey is a London-based multi-shop loyalty card platform</p>
+        <p>🐝 digital + physical card to collect points where you shop most</p>
+        <p>🐝 digital wallet to store existing cards</p></h2>
+</div>
+<div class="col-md-6">
+        <img src="https://i.ibb.co/G9S2F6R/Screenshot-2018-11-26-at-21-36-07.png" alt="iPhone prototype">
+      </div>
+    </div>
+  </div>
+        </section>
       <section class="page3">
-      <h2>about</h2></section>
+        <h2>about</h2></section>
       <section class="page4">
-      <h2>featured</h2></section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>featured in</h3>
+            </div>
+            </div>
+          <div class="row">
+              <div class="col-md-3">
+                <img src='assets/marieclaire_logo.png' class="img-thumbnail" alt="Marie Claire">
+              </div>
+              <div class="col-md-3">
+                <img src='assets/guardian_logo.jpg' class="img-thumbnail" alt="The Guardian">
+              </div>
+              <div class="col-md-3">
+                <img src='assets/wired_logo.png' class="img-thumbnail" alt="Wired">
+              </div>
+              <div class="col-md-3">
+                <img src='assets/huffington-post-logo.png' class="img-thumbnail" alt="The Huffington Post">
+              </div>
+            </div>
+          </div>
+</section>
       <section class="page5">
-      <h2>feedback</h2></section>
+        <h2>what others think</h2></section>
       <section class="page6">
-      <h2>call to action</h2></section>
+        <h2>call to action</h2></section>
+      <section class="page7">
+        <h1>get in touch</h1></section>
     </div>
   </body>
 </html>
