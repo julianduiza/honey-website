@@ -103,7 +103,7 @@ textarea {
   resize: none;
 }
 #exampleCheck1 input:checked ~ .control-indicator {
-  background-color: #000000;
+  background-color: #333;
   color: #ffffff;
 }
 a:link {
