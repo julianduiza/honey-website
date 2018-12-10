@@ -208,6 +208,7 @@ h3{
 .row {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .contact .form-group {
 -webkit-border-radius: 80px;
