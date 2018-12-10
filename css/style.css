@@ -210,6 +210,12 @@ h3{
   align-items: center;
   justify-content: center;
 }
+
+.row-not-aligned {
+  display: flex;
+  justify-content: center;
+}
+
 .contact .form-group {
 -webkit-border-radius: 80px;
 -moz-border-radius: 80px;
@@ -243,7 +249,7 @@ a:active {
 }
 .contactfooter a {
   text-decoration: none;
-  diplay: flex;
+  display: inline-block;
 }
 
 @media(max-width:568px){
