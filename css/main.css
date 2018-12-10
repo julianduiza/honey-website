@@ -56,7 +56,7 @@ section {
 .main section .page2 .img {
   align-self: center;
 }
-.main section.page3 {
+.main section#page3 {
   background: #ffffff;
   text-align: center;
 }
