@@ -106,9 +106,20 @@ h1{
   font-family: 'Pacifico', serif;
   font-weight: normal;
   line-height: 1.45;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   margin: 0;
 }
+
+.logo {
+  font-size: 30px;
+  color: #333;
+  font-family: 'Pacifico', serif;
+  font-weight: normal;
+  line-height: 1.45;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
 
 .website-name{
   font-size: 50px;
@@ -199,7 +210,7 @@ h3{
   display: inline-block;
 }
 .col-md-4 .img-thumbnail {
-  max-height: 9vh;
+  max-height: 50px;
   border: 0;
   display: inline-block;
   color: #ffe733;
@@ -210,6 +221,12 @@ h3{
   align-items: center;
   justify-content: center;
 }
+
+.row-not-aligned {
+  display: flex;
+  justify-content: center;
+}
+
 .contact .form-group {
 -webkit-border-radius: 80px;
 -moz-border-radius: 80px;
@@ -243,7 +260,7 @@ a:active {
 }
 .contactfooter a {
   text-decoration: none;
-  diplay: flex;
+  display: inline-block;
 }
 
 @media(max-width:568px){
