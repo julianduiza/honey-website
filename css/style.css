@@ -119,8 +119,6 @@ h2{
   line-height: 1.45;
   margin: 0;
 }
-
-
 h3{
   font-size:30px;
   font-family:"Lato", serif;
@@ -191,7 +189,9 @@ h3{
 
 
 
-
+.element-iphone {
+  width: 444px;
+}
 
 .col-md-3 .img-thumbnail {
   max-height: 15vh;
