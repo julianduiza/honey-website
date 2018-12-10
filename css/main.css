@@ -13,7 +13,6 @@ body {
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: white;
     border-radius: 0 5px 5px 0;
 }
 
@@ -24,17 +23,18 @@ body {
 #about {
     top: 20px;
     background-color: #FFFFFF;
-    color: #000000;
+
 }
 #home {
     top: 20px;
     background-color: #FFFFFF;
-    color: #000000;
+
 }
 
 #contact {
     top: 80px;
-    background-color: #090A01
+    background-color: #090A01;
+    color: white;
 }
 section {
   width: 100%;
